@@ -2,7 +2,7 @@ import { PokemonType } from './types.model';
 
 export interface Pokemon {
   image: string;
-  number: number;
+  number: string;
   name: string;
   type: PokemonType[];
 }
